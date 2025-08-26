@@ -159,3 +159,10 @@ O README agora funciona como um hub central que:
 ✅ Mantém foco educacional sem perder profissionalismo
 ✅ Facilita navegação e compreensão do projeto completo
 Agora qualquer pessoa (professor, aluno ou desenvolvedor) pode entender rapidamente o projeto e ser direcionada para o material mais relevante para seu perfil! 🎯
+
+> **PROMPT 4: Adicione à página principal tags de acessibilidade domo aria-label, role, dentre outras, de modo que o site altamente acessível.
+
+As tags de acessibilidade foram adicionadas ao index.html, incluindo atributos como aria-label, role, aria-controls, aria-expanded, e melhorias em botões, listas, formulários e imagens. Isso torna a navegação e o entendimento do site muito mais acessível para leitores de tela e outros recursos assistivos.
+
+Se quiser revisar ou ajustar algum ponto específico, posso ajudar!
+
