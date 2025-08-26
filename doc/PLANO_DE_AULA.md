@@ -53,7 +53,7 @@ depoimentos, contato e footer. Use HTML5 semântico e seja responsivo."
 **Pontos de Discussão:**
 - **Tags Semânticas:** Por que usar `<header>`, `<section>`, `<nav>`?
 - **Acessibilidade:** Atributos `alt`, `aria-label`, roles
-- **SEO:** Meta tags, estrutura hierárquica de headings
+- **[SEO](O_QUE_E_SEO.md):** Meta tags, estrutura hierárquica de headings
 - **Performance:** Carregamento de fonts e ícones
 
 ### **2.3 Atividade Prática**
@@ -90,7 +90,7 @@ depoimentos, contato e footer. Use HTML5 semântico e seja responsivo."
 
 ### **3.2 Análise por Blocos de Código**
 
-#### **A) Reset e Base (5 min)**
+#### **[A) Reset e Base (5 min)](BOX-SIZING-BORDER-BOX.md)**
 ```css
 * {
     margin: 0;
