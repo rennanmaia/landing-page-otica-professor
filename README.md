@@ -1,5 +1,5 @@
 # 🔍 Landing Page Ótica - Programação Web com IA
-## Projeto Educacional para Ciência da Computação
+## Projeto Educacional para Bacharelado em Sistemas de Informação - BCC/UFOPA
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -12,7 +12,7 @@
 
 ## 🎯 **SOBRE O PROJETO**
 
-Este repositório contém uma **landing page profissional para uma ótica fictícia** chamada "VisãoClear", criada especificamente para ser utilizada em aulas de **Programação Web** para alunos do **6º semestre de Ciência da Computação**.
+Este repositório contém uma **landing page profissional para uma ótica fictícia** chamada "VisãoClear", criada especificamente para ser utilizada em aulas de **Programação Web** para alunos do **6º semestre de Sistemas de Informação**.
 
 O projeto demonstra a implementação completa de uma aplicação web moderna usando tecnologias fundamentais (**HTML5**, **CSS3**, **JavaScript**) e serve como base para o aprendizado ativo com **Inteligência Artificial** como ferramenta de desenvolvimento.
 
@@ -95,6 +95,10 @@ landing-page-otica/
 - Critérios de avaliação transparentes
 - Templates de entrega estruturados
 
+✏️ **[PROMPT UTILIZADO](CHAT_COPILOT.md)**
+- Prompts utilizados para geração de todo o conteúdo
+
+
 ---
 
 ## 🚀 **TECNOLOGIAS E RECURSOS**
@@ -163,7 +167,7 @@ CICLO DE APRENDIZAGEM:
 ### **Para Desenvolvedores:**
 1. Clone o repositório
 2. Configure XAMPP e inicie o Apache
-3. Acesse `http://localhost/landing-page-otica`
+3. Acesse `http://localhost/landing-page-otica-professor`
 4. Explore o código e documentação
 5. Adapte para seus projetos
 
@@ -260,7 +264,7 @@ Este é um projeto educacional aberto a melhorias! Contribuições são bem-vind
 ## 📞 **SUPORTE E CONTATO**
 
 ### **Para Dúvidas Acadêmicas:**
-- 📧 Entre em contato com o professor responsável
+- 📧 Entre em contato com o professor Rennan Maia [rennanmaia@gmail.com](mailto://rennanmaia@gmail.com)
 - 📚 Consulte a [documentação completa](MANUAL_DO_ALUNO.md)
 - 💬 Use as issues do GitHub para dúvidas técnicas
 
