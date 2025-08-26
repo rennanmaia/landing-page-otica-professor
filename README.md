@@ -1,5 +1,5 @@
 # 🔍 Landing Page Ótica - Programação Web com IA
-## Projeto Educacional para Bacharelado em Sistemas de Informação - BCC/UFOPA
+## Projeto Educacional para Bacharelado em Computação - BCC/UFOPA
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -12,7 +12,7 @@
 
 ## 🎯 **SOBRE O PROJETO**
 
-Este repositório contém uma **landing page profissional para uma ótica fictícia** chamada "VisãoClear", criada especificamente para ser utilizada em aulas de **Programação Web** para alunos do **6º semestre de Sistemas de Informação**.
+Este repositório contém uma **landing page profissional para uma ótica fictícia** chamada "VisãoClear", criada especificamente para ser utilizada em aulas de **Programação Web**.
 
 O projeto demonstra a implementação completa de uma aplicação web moderna usando tecnologias fundamentais (**HTML5**, **CSS3**, **JavaScript**) e serve como base para o aprendizado ativo com **Inteligência Artificial** como ferramenta de desenvolvimento.
 
@@ -28,7 +28,7 @@ O projeto demonstra a implementação completa de uma aplicação web moderna us
 ## 🎓 **OBJETIVOS EDUCACIONAIS**
 
 ### **Objetivo Geral:**
-Capacitar alunos de Ciência da Computação a desenvolver aplicações web modernas utilizando tecnologias fundamentais e IA como ferramenta de aceleração do aprendizado, mantendo o foco na compreensão profunda dos conceitos.
+Capacitar alunos de Computação a desenvolver aplicações web modernas utilizando tecnologias fundamentais e IA como ferramenta de aceleração do aprendizado, mantendo o foco na compreensão profunda dos conceitos.
 
 ### **Objetivos Específicos:**
 1. **Compreender a arquitetura** de aplicações web front-end
@@ -283,7 +283,7 @@ Este projeto é destinado para fins educacionais e está disponível sob licenç
 
 ## 🏆 **AGRADECIMENTOS**
 
-- 🎓 **Estudantes de Ciência da Computação** - Por testarem e melhorarem o projeto
+- 🎓 **Estudantes de Computação** - Por testarem e melhorarem o projeto
 - 🧑‍🏫 **Educadores** - Por feedback e sugestões pedagógicas
 - 🤖 **Comunidade IA** - Por ferramentas e recursos disponibilizados
 - 🌐 **Comunidade Web** - Por padrões e boas práticas compartilhadas
@@ -298,4 +298,4 @@ Este projeto é destinado para fins educacionais e está disponível sob licenç
 
 ---
 
-*Desenvolvido com 💙 para educação em Ciência da Computação*
+*Desenvolvido com 💙 para educação em Computação*
