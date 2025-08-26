@@ -34,7 +34,7 @@ Capacitar alunos de Computação a desenvolver aplicações web modernas utiliza
 1. **Compreender a arquitetura** de aplicações web front-end
 2. **Aplicar HTML5 semântico** para estruturas acessíveis e otimizadas
 3. **Implementar layouts responsivos** com CSS3 moderno (Grid/Flexbox)
-4. **Desenvolver interatividade** com JavaScript vanilla
+4. **Desenvolver interatividade** com JavaScript [vanilla](doc/O_QUE_E_JS_VANILLA.md)
 5. **Utilizar IA efetivamente** como assistente de desenvolvimento
 6. **Aplicar boas práticas** da indústria de desenvolvimento web
 7. **Desenvolver pensamento crítico** sobre código gerado por IA
@@ -55,11 +55,12 @@ landing-page-otica/
 ├── 🎨 style.css                    # Estilos e responsividade
 ├── ⚙️ script.js                    # Funcionalidades interativas
 ├── 📚 README.md                    # Documentação principal (este arquivo)
-├── 🎓 doc/PLANO_DE_AULA.md             # Estrutura completa da aula
-├── 🧑‍🏫 doc/GUIA_PROMPTS_PROFESSOR.md     # Guia para educadores
-├── 👨‍🎓 doc/MANUAL_DO_ALUNO.md           # Material para estudantes
-└── ✏️ doc/EXERCICIOS_PRATICOS.md       # Atividades hands-on
-└── ✏️ doc/CHAT_COPILOT.md       # Atividades hands-on
+├── doc/
+   ├── 🎓 PLANO_DE_AULA.md             # Estrutura completa da aula
+   ├── 🧑‍🏫 GUIA_PROMPTS_PROFESSOR.md     # Guia para educadores
+   ├── 👨‍🎓 MANUAL_DO_ALUNO.md           # Material para estudantes
+   └── ✏️ EXERCICIOS_PRATICOS.md       # Atividades hands-on
+   └── ✏️ CHAT_COPILOT.md       # Atividades hands-on
 ```
 
 ---

@@ -1,5 +1,5 @@
 # Aula de Programação Web: Landing Page Responsiva com IA
-## Sexto Semestre - Ciência da Computação
+## Sexto Semestre - Cursos de Computação
 
 ### 🎯 **OBJETIVOS DA AULA**
 - Compreender a estrutura e arquitetura de uma aplicação web moderna
