@@ -10,61 +10,61 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header" id="header">
-        <nav class="navbar">
+    <header class="header" id="header" role="banner" aria-label="Cabeçalho principal">
+        <nav class="navbar" role="navigation" aria-label="Menu de navegação principal">
             <div class="nav-container">
-                <div class="logo">
-                    <i class="fas fa-eye"></i>
+                <div class="logo" aria-label="Logo VisãoClear" tabindex="0">
+                    <i class="fas fa-eye" aria-hidden="true"></i>
                     <span>VisãoClear</span>
                 </div>
-                <ul class="nav-menu" id="nav-menu">
-                    <li><a href="#inicio" class="nav-link">Início</a></li>
-                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
-                    <li><a href="#produtos" class="nav-link">Produtos</a></li>
-                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
-                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
-                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                <ul class="nav-menu" id="nav-menu" role="menubar">
+                    <li role="none"><a href="#inicio" class="nav-link" role="menuitem" aria-label="Ir para Início">Início</a></li>
+                    <li role="none"><a href="#servicos" class="nav-link" role="menuitem" aria-label="Ir para Serviços">Serviços</a></li>
+                    <li role="none"><a href="#produtos" class="nav-link" role="menuitem" aria-label="Ir para Produtos">Produtos</a></li>
+                    <li role="none"><a href="#sobre" class="nav-link" role="menuitem" aria-label="Ir para Sobre">Sobre</a></li>
+                    <li role="none"><a href="#depoimentos" class="nav-link" role="menuitem" aria-label="Ir para Depoimentos">Depoimentos</a></li>
+                    <li role="none"><a href="#contato" class="nav-link" role="menuitem" aria-label="Ir para Contato">Contato</a></li>
                 </ul>
-                <div class="hamburger" id="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div class="hamburger" id="hamburger" role="button" aria-label="Abrir menu" aria-controls="nav-menu" aria-expanded="false" tabindex="0">
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="inicio">
+    <section class="hero" id="inicio" role="region" aria-label="Seção principal Hero">
         <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Enxergue o Mundo com <span class="highlight">Clareza</span></h1>
+        <div class="hero-content" role="group" aria-label="Conteúdo principal Hero">
+                <h1 class="hero-title" tabindex="0">Enxergue o Mundo com <span class="highlight">Clareza</span></h1>
                 <p class="hero-subtitle">Na VisãoClear, oferecemos óculos de qualidade premium, exames completos e atendimento personalizado para cuidar da sua visão com excelência.</p>
-                <div class="hero-buttons">
-                    <a href="#contato" class="btn btn-primary">Agende sua consulta</a>
-                    <a href="#produtos" class="btn btn-secondary">Ver produtos</a>
+                <div class="hero-buttons" role="group" aria-label="Ações principais">
+                    <a href="#contato" class="btn btn-primary" role="button" aria-label="Agende sua consulta">Agende sua consulta</a>
+                    <a href="#produtos" class="btn btn-secondary" role="button" aria-label="Ver produtos">Ver produtos</a>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-image" aria-label="Imagem de óculos" role="img">
                 <div class="glasses-showcase">
-                    <i class="fas fa-glasses"></i>
+                    <i class="fas fa-glasses" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
-        <div class="hero-scroll">
-            <i class="fas fa-chevron-down"></i>
+        <div class="hero-scroll" aria-label="Role para baixo" role="button" tabindex="0">
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
         </div>
     </section>
 
     <!-- Serviços -->
-    <section class="services" id="servicos">
+    <section class="services" id="servicos" role="region" aria-label="Seção de Serviços">
         <div class="container">
             <div class="section-header">
                 <h2>Nossos Serviços</h2>
                 <p>Cuidamos da sua visão com tecnologia de ponta e atendimento humanizado</p>
             </div>
-            <div class="services-grid">
-                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-grid" role="list" aria-label="Lista de serviços">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100" role="listitem" aria-label="Exame de Vista">
                     <div class="service-icon">
                         <i class="fas fa-eye-dropper"></i>
                     </div>
@@ -76,7 +76,7 @@
                         <span class="feature">• Teste de pressão ocular</span>
                     </div>
                 </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200" role="listitem" aria-label="Óculos de Grau">
                     <div class="service-icon">
                         <i class="fas fa-glasses"></i>
                     </div>
@@ -88,7 +88,7 @@
                         <span class="feature">• Garantia total</span>
                     </div>
                 </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300" role="listitem" aria-label="Óculos de Sol">
                     <div class="service-icon">
                         <i class="fas fa-sun"></i>
                     </div>
@@ -100,7 +100,7 @@
                         <span class="feature">• Designs exclusivos</span>
                     </div>
                 </div>
-                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400" role="listitem" aria-label="Manutenção">
                     <div class="service-icon">
                         <i class="fas fa-tools"></i>
                     </div>
@@ -117,20 +117,20 @@
     </section>
 
     <!-- Produtos -->
-    <section class="products" id="produtos">
+    <section class="products" id="produtos" role="region" aria-label="Seção de Produtos">
         <div class="container">
             <div class="section-header">
                 <h2>Nossos Produtos</h2>
                 <p>Descubra nossa coleção exclusiva de óculos e acessórios</p>
             </div>
-            <div class="product-categories">
+            <div class="product-categories" role="group" aria-label="Categorias de produtos">
                 <button class="category-btn active" data-category="all">Todos</button>
                 <button class="category-btn" data-category="grau">Óculos de Grau</button>
                 <button class="category-btn" data-category="sol">Óculos de Sol</button>
                 <button class="category-btn" data-category="infantil">Infantil</button>
             </div>
-            <div class="products-grid">
-                <div class="product-card" data-category="grau">
+            <div class="products-grid" role="list" aria-label="Lista de produtos">
+                <div class="product-card" data-category="grau" role="listitem" aria-label="Óculos Elegance Classic Ray-Ban">
                     <div class="product-image">
                         <i class="fas fa-glasses"></i>
                         <div class="product-overlay">
@@ -143,7 +143,7 @@
                         <p class="product-price">R$ 299,90</p>
                     </div>
                 </div>
-                <div class="product-card" data-category="sol">
+                <div class="product-card" data-category="sol" role="listitem" aria-label="Óculos Summer Vibes Oakley">
                     <div class="product-image">
                         <i class="fas fa-glasses"></i>
                         <div class="product-overlay">
@@ -156,7 +156,7 @@
                         <p class="product-price">R$ 459,90</p>
                     </div>
                 </div>
-                <div class="product-card" data-category="grau">
+                <div class="product-card" data-category="grau" role="listitem" aria-label="Óculos Modern Tech Persol">
                     <div class="product-image">
                         <i class="fas fa-glasses"></i>
                         <div class="product-overlay">
@@ -169,7 +169,7 @@
                         <p class="product-price">R$ 389,90</p>
                     </div>
                 </div>
-                <div class="product-card" data-category="infantil">
+                <div class="product-card" data-category="infantil" role="listitem" aria-label="Óculos Kids Fun Disney">
                     <div class="product-image">
                         <i class="fas fa-glasses"></i>
                         <div class="product-overlay">
@@ -182,7 +182,7 @@
                         <p class="product-price">R$ 189,90</p>
                     </div>
                 </div>
-                <div class="product-card" data-category="sol">
+                <div class="product-card" data-category="sol" role="listitem" aria-label="Óculos Sport Active Nike">
                     <div class="product-image">
                         <i class="fas fa-glasses"></i>
                         <div class="product-overlay">
@@ -195,7 +195,7 @@
                         <p class="product-price">R$ 329,90</p>
                     </div>
                 </div>
-                <div class="product-card" data-category="grau">
+                <div class="product-card" data-category="grau" role="listitem" aria-label="Óculos Business Pro Tom Ford">
                     <div class="product-image">
                         <i class="fas fa-glasses"></i>
                         <div class="product-overlay">
@@ -213,10 +213,10 @@
     </section>
 
     <!-- Sobre -->
-    <section class="about" id="sobre">
+    <section class="about" id="sobre" role="region" aria-label="Sobre a VisãoClear">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
+            <div class="about-content" role="group" aria-label="Conteúdo sobre a VisãoClear">
+                <div class="about-text" role="group" aria-label="Texto sobre a VisãoClear">
                     <div class="section-header">
                         <h2>Sobre a VisãoClear</h2>
                         <p>Mais de 20 anos cuidando da sua visão com excelência</p>
@@ -240,9 +240,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-image">
+                <div class="about-image" role="img" aria-label="Imagem da loja VisãoClear">
                     <div class="about-img-container">
-                        <i class="fas fa-store"></i>
+                        <i class="fas fa-store" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -250,14 +250,14 @@
     </section>
 
     <!-- Depoimentos -->
-    <section class="testimonials" id="depoimentos">
+    <section class="testimonials" id="depoimentos" role="region" aria-label="Depoimentos de clientes">
         <div class="container">
             <div class="section-header">
                 <h2>O que nossos clientes dizem</h2>
                 <p>Confira alguns depoimentos de quem confia na VisãoClear</p>
             </div>
-            <div class="testimonials-slider">
-                <div class="testimonial-card active">
+            <div class="testimonials-slider" role="list" aria-label="Lista de depoimentos">
+                <div class="testimonial-card active" role="listitem" aria-label="Depoimento de Maria Silva">
                     <div class="testimonial-content">
                         <div class="stars">
                             <i class="fas fa-star"></i>
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card" role="listitem" aria-label="Depoimento de João Santos">
                     <div class="testimonial-content">
                         <div class="stars">
                             <i class="fas fa-star"></i>
@@ -299,7 +299,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card" role="listitem" aria-label="Depoimento de Ana Costa">
                     <div class="testimonial-content">
                         <div class="stars">
                             <i class="fas fa-star"></i>
@@ -321,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="testimonial-dots">
+            <div class="testimonial-dots" role="group" aria-label="Navegação dos depoimentos">
                 <span class="dot active" data-slide="0"></span>
                 <span class="dot" data-slide="1"></span>
                 <span class="dot" data-slide="2"></span>
@@ -330,15 +330,15 @@
     </section>
 
     <!-- Contato -->
-    <section class="contact" id="contato">
+    <section class="contact" id="contato" role="region" aria-label="Seção de Contato">
         <div class="container">
             <div class="section-header">
                 <h2>Entre em Contato</h2>
                 <p>Agende sua consulta ou tire suas dúvidas conosco</p>
             </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-card">
+            <div class="contact-content" role="group" aria-label="Conteúdo de contato">
+                <div class="contact-info" role="list" aria-label="Informações de contato">
+                    <div class="contact-card" role="listitem" aria-label="Endereço">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
@@ -347,7 +347,7 @@
                             <p>Rua das Flores, 123<br>Centro - São Paulo, SP<br>CEP: 01234-567</p>
                         </div>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card" role="listitem" aria-label="Telefone">
                         <div class="contact-icon">
                             <i class="fas fa-phone"></i>
                         </div>
@@ -356,7 +356,7 @@
                             <p>(11) 1234-5678<br>(11) 9876-5432</p>
                         </div>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card" role="listitem" aria-label="Email">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
@@ -365,7 +365,7 @@
                             <p>contato@visaoclear.com.br<br>vendas@visaoclear.com.br</p>
                         </div>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card" role="listitem" aria-label="Horário de Funcionamento">
                         <div class="contact-icon">
                             <i class="fas fa-clock"></i>
                         </div>
@@ -375,19 +375,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
+                <div class="contact-form" role="form" aria-label="Formulário de contato">
+                    <form id="contactForm" aria-labelledby="contato">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required aria-label="Seu nome">
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Seu email" required>
+                        <input type="email" id="email" name="email" placeholder="Seu email" required aria-label="Seu email">
                         </div>
                         <div class="form-group">
-                            <input type="tel" id="phone" name="phone" placeholder="Seu telefone" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Seu telefone" required aria-label="Seu telefone">
                         </div>
                         <div class="form-group">
-                            <select id="service" name="service" required>
+                        <select id="service" name="service" required aria-label="Selecione um serviço">
                                 <option value="">Selecione um serviço</option>
                                 <option value="exame">Exame de Vista</option>
                                 <option value="oculos-grau">Óculos de Grau</option>
@@ -397,9 +397,9 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                        <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required aria-label="Sua mensagem"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Enviar mensagem</button>
+                        <button type="submit" class="btn btn-primary btn-full" aria-label="Enviar mensagem">Enviar mensagem</button>
                     </form>
                 </div>
             </div>
@@ -407,71 +407,71 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo" aria-label="Rodapé">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <i class="fas fa-eye"></i>
+                <div class="footer-section" aria-label="Sobre a VisãoClear">
+                    <div class="footer-logo" aria-label="Logo VisãoClear" tabindex="0">
+                        <i class="fas fa-eye" aria-hidden="true"></i>
                         <span>VisãoClear</span>
                     </div>
                     <p>Cuidando da sua visão há mais de 20 anos com qualidade, tecnologia e atendimento humanizado.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    <div class="social-links" role="group" aria-label="Links sociais">
+                        <a href="#" aria-label="Facebook VisãoClear"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Instagram VisãoClear"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="WhatsApp VisãoClear"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="YouTube VisãoClear"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section" aria-label="Serviços">
                     <h4>Serviços</h4>
-                    <ul>
-                        <li><a href="#servicos">Exame de Vista</a></li>
-                        <li><a href="#servicos">Óculos de Grau</a></li>
-                        <li><a href="#servicos">Óculos de Sol</a></li>
-                        <li><a href="#servicos">Manutenção</a></li>
+                    <ul role="list">
+                        <li role="listitem"><a href="#servicos" aria-label="Exame de Vista">Exame de Vista</a></li>
+                        <li role="listitem"><a href="#servicos" aria-label="Óculos de Grau">Óculos de Grau</a></li>
+                        <li role="listitem"><a href="#servicos" aria-label="Óculos de Sol">Óculos de Sol</a></li>
+                        <li role="listitem"><a href="#servicos" aria-label="Manutenção">Manutenção</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section" aria-label="Produtos">
                     <h4>Produtos</h4>
-                    <ul>
-                        <li><a href="#produtos">Óculos Femininos</a></li>
-                        <li><a href="#produtos">Óculos Masculinos</a></li>
-                        <li><a href="#produtos">Óculos Infantis</a></li>
-                        <li><a href="#produtos">Acessórios</a></li>
+                    <ul role="list">
+                        <li role="listitem"><a href="#produtos" aria-label="Óculos Femininos">Óculos Femininos</a></li>
+                        <li role="listitem"><a href="#produtos" aria-label="Óculos Masculinos">Óculos Masculinos</a></li>
+                        <li role="listitem"><a href="#produtos" aria-label="Óculos Infantis">Óculos Infantis</a></li>
+                        <li role="listitem"><a href="#produtos" aria-label="Acessórios">Acessórios</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section" aria-label="Contato">
                     <h4>Contato</h4>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-item" aria-label="Endereço">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                         <span>Rua das Flores, 123 - Centro</span>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
+                    <div class="contact-item" aria-label="Telefone">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
                         <span>(11) 1234-5678</span>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
+                    <div class="contact-item" aria-label="Email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                         <span>contato@visaoclear.com.br</span>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom" aria-label="Informações legais">
                 <div class="footer-copyright">
                     <p>&copy; 2025 VisãoClear. Todos os direitos reservados.</p>
                 </div>
-                <div class="footer-links">
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#">Termos de Uso</a>
+                <div class="footer-links" role="group" aria-label="Links legais">
+                    <a href="#" aria-label="Política de Privacidade">Política de Privacidade</a>
+                    <a href="#" aria-label="Termos de Uso">Termos de Uso</a>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo" role="button">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
     <script src="script.js"></script>
