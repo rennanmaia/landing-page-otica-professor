@@ -55,10 +55,11 @@ landing-page-otica/
 ├── 🎨 style.css                    # Estilos e responsividade
 ├── ⚙️ script.js                    # Funcionalidades interativas
 ├── 📚 README.md                    # Documentação principal (este arquivo)
-├── 🎓 PLANO_DE_AULA.md             # Estrutura completa da aula
-├── 🧑‍🏫 GUIA_PROMPTS_PROFESSOR.md     # Guia para educadores
-├── 👨‍🎓 MANUAL_DO_ALUNO.md           # Material para estudantes
-└── ✏️ EXERCICIOS_PRATICOS.md       # Atividades hands-on
+├── 🎓 doc/PLANO_DE_AULA.md             # Estrutura completa da aula
+├── 🧑‍🏫 doc/GUIA_PROMPTS_PROFESSOR.md     # Guia para educadores
+├── 👨‍🎓 doc/MANUAL_DO_ALUNO.md           # Material para estudantes
+└── ✏️ doc/EXERCICIOS_PRATICOS.md       # Atividades hands-on
+└── ✏️ doc/CHAT_COPILOT.md       # Atividades hands-on
 ```
 
 ---
@@ -66,14 +67,14 @@ landing-page-otica/
 ## 📖 **DOCUMENTAÇÃO PEDAGÓGICA**
 
 ### **Para Professores:**
-📋 **[PLANO DE AULA](PLANO_DE_AULA.md)**
+📋 **[PLANO DE AULA](doc/PLANO_DE_AULA.md)**
 - Estrutura completa da aula (4 horas)
 - 8 módulos progressivos com objetivos específicos
 - Metodologia de aprendizagem ativa com IA
 - Sistema de avaliação estruturado
 - Recursos e ferramentas necessárias
 
-🧑‍🏫 **[GUIA DE PROMPTS PARA PROFESSORES](GUIA_PROMPTS_PROFESSOR.md)**
+🧑‍🏫 **[GUIA DE PROMPTS PARA PROFESSORES](doc/GUIA_PROMPTS_PROFESSOR.md)**
 - Prompts estruturados para cada etapa da aula
 - Estratégias de ensino específicas para IA
 - Técnicas avançadas de prompting
@@ -81,21 +82,21 @@ landing-page-otica/
 - Dicas para debugging e correção de código
 
 ### **Para Estudantes:**
-👨‍🎓 **[MANUAL DO ALUNO](MANUAL_DO_ALUNO.md)**
+👨‍🎓 **[MANUAL DO ALUNO](doc/MANUAL_DO_ALUNO.md)**
 - Guia passo-a-passo para desenvolvimento
 - Explicações detalhadas dos conceitos técnicos
 - Metodologia de uso eficaz da IA
 - Recursos de apoio e referências
 - Projeto final estruturado
 
-✏️ **[EXERCÍCIOS PRÁTICOS](EXERCICIOS_PRATICOS.md)**
+✏️ **[EXERCÍCIOS PRÁTICOS](doc/EXERCICIOS_PRATICOS.md)**
 - 5 exercícios graduais de dificuldade crescente
 - Atividades hands-on específicas
 - Projeto final completo e personalizado
 - Critérios de avaliação transparentes
 - Templates de entrega estruturados
 
-✏️ **[PROMPT UTILIZADO](CHAT_COPILOT.md)**
+✏️ **[PROMPT UTILIZADO](doc/CHAT_COPILOT.md)**
 - Prompts utilizados para geração de todo o conteúdo
 
 
@@ -151,16 +152,16 @@ CICLO DE APRENDIZAGEM:
 ## ⚡ **COMO USAR ESTE PROJETO**
 
 ### **Para Professores:**
-1. 📖 Leia o [Plano de Aula](PLANO_DE_AULA.md) completo
-2. 🧑‍🏫 Consulte o [Guia de Prompts](GUIA_PROMPTS_PROFESSOR.md) 
+1. 📖 Leia o [Plano de Aula](doc/PLANO_DE_AULA.md) completo
+2. 🧑‍🏫 Consulte o [Guia de Prompts](doc/GUIA_PROMPTS_PROFESSOR.md) 
 3. 🛠️ Prepare o ambiente (XAMPP + VS Code)
 4. 📋 Use os exercícios como base para avaliação
 5. 🎯 Adapte conforme sua turma e cronograma
 
 ### **Para Estudantes:**
-1. 👨‍🎓 Comece pelo [Manual do Aluno](MANUAL_DO_ALUNO.md)
+1. 👨‍🎓 Comece pelo [Manual do Aluno](doc/MANUAL_DO_ALUNO.md)
 2. 🛠️ Configure o ambiente de desenvolvimento
-3. ✏️ Realize os [Exercícios Práticos](EXERCICIOS_PRATICOS.md)
+3. ✏️ Realize os [Exercícios Práticos](doc/EXERCICIOS_PRATICOS.md)
 4. 🤖 Experimente com diferentes prompts de IA
 5. 🚀 Desenvolva seu projeto personalizado
 
@@ -265,7 +266,7 @@ Este é um projeto educacional aberto a melhorias! Contribuições são bem-vind
 
 ### **Para Dúvidas Acadêmicas:**
 - 📧 Entre em contato com o professor Rennan Maia [rennanmaia@gmail.com](mailto://rennanmaia@gmail.com)
-- 📚 Consulte a [documentação completa](MANUAL_DO_ALUNO.md)
+- 📚 Consulte a [documentação completa](doc/MANUAL_DO_ALUNO.md)
 - 💬 Use as issues do GitHub para dúvidas técnicas
 
 ### **Para Colaboração:**
@@ -292,9 +293,9 @@ Este projeto é destinado para fins educacionais e está disponível sob licenç
 
 **🚀 Pronto para começar? Escolha seu perfil e comece a explorar!**
 
-[![Para Professores](https://img.shields.io/badge/👨‍🏫_Para_Professores-blue?style=for-the-badge)](PLANO_DE_AULA.md)
-[![Para Alunos](https://img.shields.io/badge/👨‍🎓_Para_Alunos-green?style=for-the-badge)](MANUAL_DO_ALUNO.md)
-[![Exercícios](https://img.shields.io/badge/✏️_Exercícios-orange?style=for-the-badge)](EXERCICIOS_PRATICOS.md)
+[![Para Professores](https://img.shields.io/badge/👨‍🏫_Para_Professores-blue?style=for-the-badge)](doc/PLANO_DE_AULA.md)
+[![Para Alunos](https://img.shields.io/badge/👨‍🎓_Para_Alunos-green?style=for-the-badge)](doc/MANUAL_DO_ALUNO.md)
+[![Exercícios](https://img.shields.io/badge/✏️_Exercícios-orange?style=for-the-badge)](doc/EXERCICIOS_PRATICOS.md)
 
 ---
 
