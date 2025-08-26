@@ -100,6 +100,8 @@ landing-page-otica/
 ✏️ **[PROMPT UTILIZADO](doc/CHAT_COPILOT.md)**
 - Prompts utilizados para geração de todo o conteúdo
 
+✏️ **[COMO PUBLICAR](doc/COMO_PUBLICAR.md)**
+- Publique esse projeto gratuitamente na internet, e deixe acessível para qualquer pessoa por meio de um domínio.
 
 ---
 
