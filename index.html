@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisãoClear - Ótica Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-eye"></i>
+                    <span>VisãoClear</span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Enxergue o Mundo com <span class="highlight">Clareza</span></h1>
+                <p class="hero-subtitle">Na VisãoClear, oferecemos óculos de qualidade premium, exames completos e atendimento personalizado para cuidar da sua visão com excelência.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agende sua consulta</a>
+                    <a href="#produtos" class="btn btn-secondary">Ver produtos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="glasses-showcase">
+                    <i class="fas fa-glasses"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Cuidamos da sua visão com tecnologia de ponta e atendimento humanizado</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-eye-dropper"></i>
+                    </div>
+                    <h3>Exame de Vista</h3>
+                    <p>Exames completos com equipamentos de última geração para diagnóstico preciso da sua visão.</p>
+                    <div class="service-features">
+                        <span class="feature">• Refração computadorizada</span>
+                        <span class="feature">• Mapeamento de retina</span>
+                        <span class="feature">• Teste de pressão ocular</span>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-glasses"></i>
+                    </div>
+                    <h3>Óculos de Grau</h3>
+                    <p>Ampla variedade de armações das melhores marcas com lentes de alta qualidade.</p>
+                    <div class="service-features">
+                        <span class="feature">• Marcas premium</span>
+                        <span class="feature">• Lentes antirreflexo</span>
+                        <span class="feature">• Garantia total</span>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Óculos de Sol</h3>
+                    <p>Proteção UV total com estilo. Modelos esportivos, clássicos e fashion.</p>
+                    <div class="service-features">
+                        <span class="feature">• Proteção UV400</span>
+                        <span class="feature">• Lentes polarizadas</span>
+                        <span class="feature">• Designs exclusivos</span>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Manutenção</h3>
+                    <p>Serviços completos de ajuste, limpeza e reparo para seus óculos durarem mais.</p>
+                    <div class="service-features">
+                        <span class="feature">• Ajuste gratuito</span>
+                        <span class="feature">• Limpeza ultrassônica</span>
+                        <span class="feature">• Troca de peças</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="products" id="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Produtos</h2>
+                <p>Descubra nossa coleção exclusiva de óculos e acessórios</p>
+            </div>
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="grau">Óculos de Grau</button>
+                <button class="category-btn" data-category="sol">Óculos de Sol</button>
+                <button class="category-btn" data-category="infantil">Infantil</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-category="grau">
+                    <div class="product-image">
+                        <i class="fas fa-glasses"></i>
+                        <div class="product-overlay">
+                            <button class="btn btn-small">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Elegance Classic</h4>
+                        <p class="product-brand">Ray-Ban</p>
+                        <p class="product-price">R$ 299,90</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="sol">
+                    <div class="product-image">
+                        <i class="fas fa-glasses"></i>
+                        <div class="product-overlay">
+                            <button class="btn btn-small">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Summer Vibes</h4>
+                        <p class="product-brand">Oakley</p>
+                        <p class="product-price">R$ 459,90</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="grau">
+                    <div class="product-image">
+                        <i class="fas fa-glasses"></i>
+                        <div class="product-overlay">
+                            <button class="btn btn-small">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Modern Tech</h4>
+                        <p class="product-brand">Persol</p>
+                        <p class="product-price">R$ 389,90</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="infantil">
+                    <div class="product-image">
+                        <i class="fas fa-glasses"></i>
+                        <div class="product-overlay">
+                            <button class="btn btn-small">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Kids Fun</h4>
+                        <p class="product-brand">Disney</p>
+                        <p class="product-price">R$ 189,90</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="sol">
+                    <div class="product-image">
+                        <i class="fas fa-glasses"></i>
+                        <div class="product-overlay">
+                            <button class="btn btn-small">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Sport Active</h4>
+                        <p class="product-brand">Nike</p>
+                        <p class="product-price">R$ 329,90</p>
+                    </div>
+                </div>
+                <div class="product-card" data-category="grau">
+                    <div class="product-image">
+                        <i class="fas fa-glasses"></i>
+                        <div class="product-overlay">
+                            <button class="btn btn-small">Ver detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Business Pro</h4>
+                        <p class="product-brand">Tom Ford</p>
+                        <p class="product-price">R$ 599,90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2>Sobre a VisãoClear</h2>
+                        <p>Mais de 20 anos cuidando da sua visão com excelência</p>
+                    </div>
+                    <div class="about-description">
+                        <p>Fundada em 2003, a VisãoClear nasceu do sonho de oferecer cuidados visuais de qualidade excepcional para toda a família. Ao longo dos anos, nos tornamos referência em nossa região, sempre priorizando a satisfação e bem-estar de nossos clientes.</p>
+                        <p>Nossa equipe é formada por profissionais altamente qualificados, com especialização em optometria e atendimento personalizado. Investimos constantemente em tecnologia de ponta para oferecer exames precisos e produtos de alta qualidade.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">10.000+</div>
+                            <div class="stat-label">Clientes satisfeitos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Anos de experiência</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Modelos disponíveis</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <i class="fas fa-store"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Confira alguns depoimentos de quem confia na VisãoClear</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Atendimento excepcional! Fiz meu exame de vista e comprei meus óculos aqui. A qualidade é incrível e o preço justo. Super recomendo!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h5>Maria Silva</h5>
+                                <span>Cliente há 3 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Profissionais muito competentes! Detectaram um problema na minha visão que outras óticas não haviam percebido. Agora enxergo perfeitamente!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h5>João Santos</h5>
+                                <span>Cliente há 5 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Comprei óculos para toda a família aqui. Tem opções para todos os gostos e idades. O atendimento é sempre cordial e prestativo!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h5>Ana Costa</h5>
+                                <span>Cliente há 2 anos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Agende sua consulta ou tire suas dúvidas conosco</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Endereço</h4>
+                            <p>Rua das Flores, 123<br>Centro - São Paulo, SP<br>CEP: 01234-567</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <p>(11) 1234-5678<br>(11) 9876-5432</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>contato@visaoclear.com.br<br>vendas@visaoclear.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 14h<br>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="exame">Exame de Vista</option>
+                                <option value="oculos-grau">Óculos de Grau</option>
+                                <option value="oculos-sol">Óculos de Sol</option>
+                                <option value="manutencao">Manutenção</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-eye"></i>
+                        <span>VisãoClear</span>
+                    </div>
+                    <p>Cuidando da sua visão há mais de 20 anos com qualidade, tecnologia e atendimento humanizado.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Exame de Vista</a></li>
+                        <li><a href="#servicos">Óculos de Grau</a></li>
+                        <li><a href="#servicos">Óculos de Sol</a></li>
+                        <li><a href="#servicos">Manutenção</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Produtos</h4>
+                    <ul>
+                        <li><a href="#produtos">Óculos Femininos</a></li>
+                        <li><a href="#produtos">Óculos Masculinos</a></li>
+                        <li><a href="#produtos">Óculos Infantis</a></li>
+                        <li><a href="#produtos">Acessórios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua das Flores, 123 - Centro</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 1234-5678</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contato@visaoclear.com.br</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 VisãoClear. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
